@@ -82,7 +82,7 @@ namespace QuizApp
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(531, 311);
+            ClientSize = new Size(513, 326);
             Controls.Add(lblQuestion);
             Controls.Add(btnAnswer1);
             Controls.Add(btnAnswer2);
