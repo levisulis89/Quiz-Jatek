@@ -21,77 +21,77 @@ namespace QuizApp
 
         private void InitializeComponent()
         {
-            this.lblQuestion = new System.Windows.Forms.Label();
-            this.btnAnswer1 = new System.Windows.Forms.Button();
-            this.btnAnswer2 = new System.Windows.Forms.Button();
-            this.btnAnswer3 = new System.Windows.Forms.Button();
-            this.btnAnswer4 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            lblQuestion = new Label();
+            btnAnswer1 = new Button();
+            btnAnswer2 = new Button();
+            btnAnswer3 = new Button();
+            btnAnswer4 = new Button();
+            SuspendLayout();
             // 
             // lblQuestion
             // 
-            this.lblQuestion.AutoSize = true;
-            this.lblQuestion.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblQuestion.Location = new System.Drawing.Point(30, 30);
-            this.lblQuestion.Name = "lblQuestion";
-            this.lblQuestion.Size = new System.Drawing.Size(79, 19);
-            this.lblQuestion.TabIndex = 0;
-            this.lblQuestion.Text = "Kérdés";
+            lblQuestion.AutoSize = true;
+            lblQuestion.Font = new Font("Arial", 12F, FontStyle.Bold);
+            lblQuestion.Location = new Point(30, 30);
+            lblQuestion.Name = "lblQuestion";
+            lblQuestion.Size = new Size(64, 19);
+            lblQuestion.TabIndex = 0;
+            lblQuestion.Text = "Kérdés";
             // 
             // btnAnswer1
             // 
-            this.btnAnswer1.Location = new System.Drawing.Point(30, 80);
-            this.btnAnswer1.Name = "btnAnswer1";
-            this.btnAnswer1.Size = new System.Drawing.Size(350, 40);
-            this.btnAnswer1.TabIndex = 1;
-            this.btnAnswer1.Text = "Válasz 1";
-            this.btnAnswer1.UseVisualStyleBackColor = true;
-            this.btnAnswer1.Click += new System.EventHandler(this.btnAnswer1_Click);
+            btnAnswer1.Location = new Point(30, 80);
+            btnAnswer1.Name = "btnAnswer1";
+            btnAnswer1.Size = new Size(350, 40);
+            btnAnswer1.TabIndex = 1;
+            btnAnswer1.Text = "Válasz 1";
+            btnAnswer1.UseVisualStyleBackColor = true;
+            btnAnswer1.Click += btnAnswer1_Click;
             // 
             // btnAnswer2
             // 
-            this.btnAnswer2.Location = new System.Drawing.Point(30, 130);
-            this.btnAnswer2.Name = "btnAnswer2";
-            this.btnAnswer2.Size = new System.Drawing.Size(350, 40);
-            this.btnAnswer2.TabIndex = 2;
-            this.btnAnswer2.Text = "Válasz 2";
-            this.btnAnswer2.UseVisualStyleBackColor = true;
-            this.btnAnswer2.Click += new System.EventHandler(this.btnAnswer2_Click);
+            btnAnswer2.Location = new Point(30, 130);
+            btnAnswer2.Name = "btnAnswer2";
+            btnAnswer2.Size = new Size(350, 40);
+            btnAnswer2.TabIndex = 2;
+            btnAnswer2.Text = "Válasz 2";
+            btnAnswer2.UseVisualStyleBackColor = true;
+            btnAnswer2.Click += btnAnswer2_Click;
             // 
             // btnAnswer3
             // 
-            this.btnAnswer3.Location = new System.Drawing.Point(30, 180);
-            this.btnAnswer3.Name = "btnAnswer3";
-            this.btnAnswer3.Size = new System.Drawing.Size(350, 40);
-            this.btnAnswer3.TabIndex = 3;
-            this.btnAnswer3.Text = "Válasz 3";
-            this.btnAnswer3.UseVisualStyleBackColor = true;
-            this.btnAnswer3.Click += new System.EventHandler(this.btnAnswer3_Click);
+            btnAnswer3.Location = new Point(30, 180);
+            btnAnswer3.Name = "btnAnswer3";
+            btnAnswer3.Size = new Size(350, 40);
+            btnAnswer3.TabIndex = 3;
+            btnAnswer3.Text = "Válasz 3";
+            btnAnswer3.UseVisualStyleBackColor = true;
+            btnAnswer3.Click += btnAnswer3_Click;
             // 
             // btnAnswer4
             // 
-            this.btnAnswer4.Location = new System.Drawing.Point(30, 230);
-            this.btnAnswer4.Name = "btnAnswer4";
-            this.btnAnswer4.Size = new System.Drawing.Size(350, 40);
-            this.btnAnswer4.TabIndex = 4;
-            this.btnAnswer4.Text = "Válasz 4";
-            this.btnAnswer4.UseVisualStyleBackColor = true;
-            this.btnAnswer4.Click += new System.EventHandler(this.btnAnswer4_Click);
+            btnAnswer4.Location = new Point(30, 230);
+            btnAnswer4.Name = "btnAnswer4";
+            btnAnswer4.Size = new Size(350, 40);
+            btnAnswer4.TabIndex = 4;
+            btnAnswer4.Text = "Válasz 4";
+            btnAnswer4.UseVisualStyleBackColor = true;
+            btnAnswer4.Click += btnAnswer4_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(414, 311);
-            this.Controls.Add(this.lblQuestion);
-            this.Controls.Add(this.btnAnswer1);
-            this.Controls.Add(this.btnAnswer2);
-            this.Controls.Add(this.btnAnswer3);
-            this.Controls.Add(this.btnAnswer4);
-            this.Name = "Form1";
-            this.Text = "Quiz Játék";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(531, 311);
+            Controls.Add(lblQuestion);
+            Controls.Add(btnAnswer1);
+            Controls.Add(btnAnswer2);
+            Controls.Add(btnAnswer3);
+            Controls.Add(btnAnswer4);
+            Name = "Form1";
+            Text = "Quiz Játék";
+            ResumeLayout(false);
+            PerformLayout();
         }
     }
 }
